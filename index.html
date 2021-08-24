@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>iPad</title>
+    <style>
+      @media(max-height: 200px),(max-width: 400px) {
+        body {
+          background-color: silver;
+        }
+        iframe {
+          width: 200px;
+          height: 100px;
+        }
+      }
+      header {
+        display: flex;
+        position: fixed;
+        align-items: center;
+        background: linear-gradient(90deg, #005999, #66c2ff);
+      /*   opacity: 50%; */
+      }
+      main {
+        padding: 100px 40px;
+        text-align: center;
+        color: white;
+      }
+      nav > ul {
+        width: 90vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      li {
+        list-style: none;
+      }
+      li > a {
+        color: white;
+        text-decoration: none;
+      }
+      #header-img {
+      /*   width: 60vw; */
+        padding-left: 2%;
+        max-height: 60px;
+      }
+      body {
+        background: linear-gradient(0deg,#000010, #005999, #66c2ff, #ffcccc, lightPink);
+      }
+      a {
+        color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+  <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/ipad-apple-logo.png" id="header-img" alt="logo">
+  <nav id="nav-bar">
+    <ul>
+    <li><a id="item1" href="#video" class="nav-link">Commercial</a></li>
+    <li><a id="item2" href="#about" class="nav-link">About</a></li>
+    <li><a id="item3" href="#buy" class="nav-link">Buy</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <input id="email" type="email" name="email" placeholder="Enter your email address">
+    <input id="submit" type="submit">
+  </form>
+  <br><br>
+  <iframe width="718" height="404" src="https://www.youtube.com/embed/awTP7IUY3uo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <hr>
+  <section id="about">
+    <h2>iPad</h2>
+      <p><em>iPad</em> is a line of tablet computers designed, developed and marketed by Apple Inc., which run the iOS mobile operating system.</p>
+    <hr width="80%">
+    <h2>About the Company</h2>
+    <p>Apple Inc. is an American multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services. It is considered one of the Big Four of technology along with Amazon, Google, and Facebook.</p>
+    <hr>
+  </section>
+  <section id="buy">
+    <p><a href="https://www.apple.com/in/ipad-9.7/">Buy the product</a> at Apple's official Website!</p>
+  </section>
+</main>
+  </body>
+</html>
